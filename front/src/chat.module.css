@@ -1,0 +1,15 @@
+.chat {
+    height: 100vh;
+    overflow: hidden;
+}
+
+.title {
+    height: 10vh;
+    line-height: 10vh;
+    font-size: 8vh;
+    margin: 0;
+    background-color: #eee;
+    text-align: center;
+    font-family: 'Style Script', cursive;
+    user-select: none;
+}

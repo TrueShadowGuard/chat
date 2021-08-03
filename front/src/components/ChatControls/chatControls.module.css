@@ -1,0 +1,27 @@
+.sendMessageButton {
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.messageInput {
+    outline: none;
+    border-radius: 6px;
+    margin-left: 5px;
+    padding: 10px;
+    border: 0.1px solid #ccc;
+}
+
+.controls {
+    background-color: #eee;
+    padding: 10px 0;
+    height: 10vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+@media (max-width: 768px) {
+    .controls > * {
+        width: 50%;
+    }
+}

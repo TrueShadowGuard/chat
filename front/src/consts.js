@@ -1,0 +1,16 @@
+const CLIENT_ACTIONS = {
+  IDENTIFICATION: 0,
+  SEND_MESSAGE: 1,
+}
+
+const SERVER_ACTIONS = {
+  INIT: 0,
+  NEW_MESSAGE: 1,
+  NOTIFY_CONNECTION: 2,
+  NOTIFY_LEFT: 3,
+}
+
+module.exports = {
+  CLIENT_ACTIONS,
+  SERVER_ACTIONS
+}
